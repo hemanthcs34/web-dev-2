@@ -64,3 +64,16 @@
     font-size: 13px;
     padding: 4px 8px;
   }
+#client-section::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../images/clients-bg.jpg');
+        background-size: cover;
+        background-position: center;
+        opacity: 0.5; /* Adjust opacity as needed */
+        z-index: -1; /* Ensure it is behind the content */
+    }
